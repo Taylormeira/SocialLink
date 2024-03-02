@@ -106,19 +106,6 @@ footer {
 @media screen and (min-width: 815px) {
     html{
         font-size: 20px;
-    }
-}
-
-link:hover {
- .   color: #ff0000; /* Cor quando o mouse está em cima */
-    animation: bounce 0.5s infinite alternate; /* Adicionando animação ao passar o mouse */
-}
-
-@keyframes bounce {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-5px);
+        height: auto;
     }
 }
